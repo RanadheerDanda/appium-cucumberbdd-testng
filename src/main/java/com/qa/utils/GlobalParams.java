@@ -68,8 +68,8 @@ public class GlobalParams {
     public void initializeGlobalParams(){
         GlobalParams params = new GlobalParams();
         params.setPlatformName(System.getProperty("platformName", "Android"));
-        params.setUDID(System.getProperty("udid", "<enter_device_udid_here>>"));
-        params.setDeviceName(System.getProperty("deviceName", "OnePlus"));
+        params.setUDID(System.getProperty("udid", "041604aa08431e02"));
+        params.setDeviceName(System.getProperty("deviceName", "041604aa08431e02"));
 
         switch(params.getPlatformName()){
             case "Android":

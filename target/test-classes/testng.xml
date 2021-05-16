@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+	<test name="Samsung Galaxy S6 Edge">
+		<parameter name="platformName" value="Android" />
+		<parameter name="udid" value="041604aa08431e02" />
+		<parameter name="deviceName" value="041604aa08431e02" />
+		<parameter name="systemPort" value="10000" />
+		<parameter name="chromeDriverPort" value="11000" />
+		<classes>
+			<class name="com.qa.runners.SamsungGalaxyS6EdgeTestNGRunnerTest"/>
+		</classes>
+	</test>
+	<test name="MI">
+		<parameter name="platformName" value="Android" />
+		<parameter name="udid" value="05624c417d28" />
+		<parameter name="deviceName" value="05624c417d28" />
+		<parameter name="systemPort" value="10001" />
+		<parameter name="chromeDriverPort" value="11001" />
+		<classes>
+			<class name="com.qa.runners.MyMITestNGRunnerTest"/>
+		</classes>
+	</test>
+</suite> <!-- Suite -->

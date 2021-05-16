@@ -1,0 +1,22 @@
+[Android_041604aa08431e02 INFO ] 2021-05-16 16:27:57.122 ServerManager:20 - starting appium server
+[Android_041604aa08431e02 INFO ] 2021-05-16 16:28:00.621 ServerManager:29 - Appium server started
+[Android_041604aa08431e02 INFO ] 2021-05-16 16:28:00.636 DriverManager:28 - initializing Appium driver
+[Android_041604aa08431e02 INFO ] 2021-05-16 16:28:00.652 PropertyManager:17 - loading config properties
+[Android_041604aa08431e02 INFO ] 2021-05-16 16:28:00.652 CapabilitiesManager:18 - getting capabilities
+[Android_041604aa08431e02 INFO ] 2021-05-16 16:28:00.652 CapabilitiesManager:34 - appUrl isD:\Selenium All Stuff\Appium Workspace\AppiumCucumberTestNG\src\test\resources\apps\Android.SauceLabs.Mobile.Sample.app.2.2.1.apk
+[Android_041604aa08431e02 INFO ] 2021-05-16 16:28:19.005 DriverManager:40 - Driver is initialized
+[Android_041604aa08431e02 INFO ] 2021-05-16 16:28:21.839 BasePage:71 - login with invalidUsername
+[Android_041604aa08431e02 INFO ] 2021-05-16 16:28:23.744 BasePage:71 - password is secret_sauce
+[Android_041604aa08431e02 INFO ] 2021-05-16 16:28:25.025 BasePage:54 - press login button
+[Android_041604aa08431e02 INFO ] 2021-05-16 16:28:26.291 BasePage:97 - error text is - Username and password do not match any user in this service.
+[Android_041604aa08431e02 INFO ] 2021-05-16 16:28:29.134 VideoManager:35 - video path: Android_041604aa08431e02\Videos\Login with invalid user name.mp4
+[Android_041604aa08431e02 INFO ] 2021-05-16 16:28:31.259 BasePage:71 - login with standard_user
+[Android_041604aa08431e02 INFO ] 2021-05-16 16:28:33.150 BasePage:71 - password is invalidPassword
+[Android_041604aa08431e02 INFO ] 2021-05-16 16:28:34.337 BasePage:54 - press login button
+[Android_041604aa08431e02 INFO ] 2021-05-16 16:28:34.634 BasePage:97 - error text is - Username and password do not match any user in this service.
+[Android_041604aa08431e02 INFO ] 2021-05-16 16:28:36.621 VideoManager:35 - video path: Android_041604aa08431e02\Videos\Login with invalid password.mp4
+[Android_041604aa08431e02 INFO ] 2021-05-16 16:28:38.792 BasePage:71 - login with standard_user
+[Android_041604aa08431e02 INFO ] 2021-05-16 16:28:40.964 BasePage:71 - password is secret_sauce
+[Android_041604aa08431e02 INFO ] 2021-05-16 16:28:42.204 BasePage:54 - press login button
+[Android_041604aa08431e02 INFO ] 2021-05-16 16:28:43.995 BasePage:97 - product page title is - PRODUCTS
+[Android_041604aa08431e02 INFO ] 2021-05-16 16:28:46.170 VideoManager:35 - video path: Android_041604aa08431e02\Videos\Login with valid user name and password.mp4
