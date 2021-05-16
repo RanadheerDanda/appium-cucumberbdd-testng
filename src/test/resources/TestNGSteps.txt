@@ -1,0 +1,37 @@
+1. Add Cucumber TestNG dependency
+=================================
+
+2. Add Maven Surefile Plugin
+============================
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.22.0</version>
+                <configuration>
+                    <!-- Suite testng xml file to consider for test execution -->
+                    <suiteXmlFiles>
+                        <suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile>
+                    </suiteXmlFiles>
+                </configuration>
+            </plugin>
+
+
+3. Create testng.xml under src/test/resources path
+
+4. Create testng runner
+=======================
+GitHub: https://github.com/cucumber/cucumber-jvm/tree/master/testng
+GitHub Examples:https://github.com/cucumber/cucumber-jvm/tree/master/examples
+https://github.com/cucumber/cucumber-jvm/tree/master/examples/java-calculator-testng/src/test/java/io/cucumber/examples/testng
+
+5. Parallel execution
+======================
+
+6. Parallel execution reporting issue and possible solutions:
+=============================================================
+
+- Seperate runner file for each device
+Tip: Use base class and abstract testNG annotations
+
+- Extent reports
